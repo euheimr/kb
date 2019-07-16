@@ -1,8 +1,10 @@
+# Strings & Indexing (python)
+
+*[source](https://docs.python.org/3/tutorial/introduction.html)*
 ```
-STRINGS indexing
-Type: kb/PYTHON
-c.Jacob Betz 
-07-16-2019 
+dir: %userprofile%/Dropbox/kb/lang/LANGUAGE-NAME
+date: 07-16-2019 
+c. Jacob Betz 
 ```
 
 Python strings cannot be changed — they are immutable. Therefore, assigning to an indexed position in the string results in an error:
