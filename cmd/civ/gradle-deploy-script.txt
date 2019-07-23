@@ -1,0 +1,6 @@
+@echo off
+
+
+
+gradle deployBatchLocal
+gradle deployLocal
