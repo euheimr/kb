@@ -1,0 +1,11 @@
+In "File Search", you can tick "Regular expressions" and use this regex to search for "some text" but exclude one-line (ie // ...) java comments:
+
+^(?!\s*//).*some text
+
+
+This regex will also exclude all lines whose first character is * - ie javadoc comments:
+
+^(?!\s*(//|\*)).*some text
+
+While lines that start with * are not necessarily comments, it is rare indeed for java code.
+

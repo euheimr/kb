@@ -1,3 +1,0 @@
-make junction symbolic link
-
-mklink /J "<TO-HERE>" "<ORIGINAL-LOC>"
